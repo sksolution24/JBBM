@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | JBBM Infraservices</title>
+  <meta name="description" content="Get in touch with JBBM Infraservices for housekeeping, security, technical services, manpower outsourcing, and consultancy services." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-icon"><i class="fa-solid fa-building"></i></span>
+        JBBM <span>Infraservices</span>
+      </a>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+
+      <a href="tel:+919999999999" class="nav-call" aria-label="Call Now">
+        <i class="fa-solid fa-phone"></i> Call Now
+      </a>
+      <a href="https://wa.me/919999999999" class="nav-whatsapp" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>Contact Us</h1>
+    <p>Have a requirement? Reach out to us for a free consultation and quote.</p>
+  </header>
+
+  <!-- Contact Layout -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="form-container">
+          <h2>Send Us a Message</h2>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label>Full Name <span style="color:var(--secondary);">*</span></label>
+              <input type="text" name="name" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group">
+              <label>Email Address <span style="color:var(--secondary);">*</span></label>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number <span style="color:var(--secondary);">*</span></label>
+              <input type="tel" name="phone" placeholder="+91 99999 99999" required />
+            </div>
+            <div class="form-group">
+              <label>Service Interested In</label>
+              <select name="service">
+                <option value="housekeeping">House Keeping</option>
+                <option value="security">Security Services</option>
+                <option value="technical">Technical Services</option>
+                <option value="manpower">Manpower Outsourcing</option>
+                <option value="cleaning">Cleaning Services</option>
+                <option value="hr">HR & Payroll Solutions</option>
+                <option value="other">Other / General Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message <span style="color:var(--secondary);">*</span></label>
+              <textarea name="message" placeholder="Tell us about your requirements..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div class="form-message"></div>
+          </form>
+        </div>
+
+        <div class="contact-info-card">
+          <h3>Get in Touch</h3>
+
+          <div class="info-item">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+919999999999" style="color:var(--text-light);">+91 99999 99999</a></p>
+              <p><a href="tel:+919888888888" style="color:var(--text-light);">+91 98888 88888</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@jbbm.co.in" style="color:var(--text-light);">info@jbbm.co.in</a></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Office Address</h4>
+              <p>JBBM Infraservices</p>
+              <p>Ashok Vihar, Phase - III,</p>
+              <p>Gurugram, Haryana - 122001</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Mon - Sat: 9:00 AM to 6:00 PM</p>
+              <p>Sunday: Closed (Emergency support available)</p>
+            </div>
+          </div>
+
+          <div class="socials">
+            <a href="https://wa.me/919999999999" class="whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>JBBM Infraservices</h3>
+          <p>Professional facility management services — housekeeping, security, technical services, manpower outsourcing, HR and payroll solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="services.html">House Keeping</a></li>
+            <li><a href="services.html">Security Services</a></li>
+            <li><a href="services.html">Technical Services</a></li>
+            <li><a href="services.html">Manpower Outsourcing</a></li>
+            <li><a href="services.html">Cleaning Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+919999999999"><i class="fa-solid fa-phone"></i> +91 99999 99999</a></li>
+            <li><a href="mailto:info@jbbm.co.in"><i class="fa-solid fa-envelope"></i> info@jbbm.co.in</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Ashok Vihar, Phase III, Gurugram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 JBBM Infraservices. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Go to Top Button -->
+  <button id="goTopBtn" aria-label="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- WhatsApp Floating Icon -->
+  <div class="float-icons">
+    <a href="https://wa.me/919999999999" class="float-icon whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <button class="float-icon go-top" id="goTopFloat" aria-label="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

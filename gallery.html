@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | JBBM Infraservices</title>
+  <meta name="description" content="View our facility services gallery: housekeeping, security, technical services, manpower outsourcing, and cleaning." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-icon"><i class="fa-solid fa-building"></i></span>
+        JBBM <span>Infraservices</span>
+      </a>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <a href="tel:+919999999999" class="nav-call" aria-label="Call Now">
+        <i class="fa-solid fa-phone"></i> Call Now
+      </a>
+      <a href="https://wa.me/919999999999" class="nav-whatsapp" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>Our Gallery</h1>
+    <p>A glimpse of JBBM Infraservices facility solutions in action.</p>
+  </header>
+
+  <!-- Gallery -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="housekeeping">House Keeping</button>
+        <button class="filter-btn" data-filter="security">Security</button>
+        <button class="filter-btn" data-filter="technical">Technical</button>
+        <button class="filter-btn" data-filter="manpower">Manpower</button>
+        <button class="filter-btn" data-filter="cleaning">Cleaning</button>
+      </div>
+
+      <div class="page-gallery">
+        <!-- House Keeping -->
+        <div class="gallery-box" data-category="housekeeping" data-title="Office Housekeeping">
+          <img src="img/gallery/housekeeping.jpg" alt="Office Housekeeping" onerror="this.src='https://i.ibb.co/zxCJmDF/hk.jpg'">
+        </div>
+        <div class="gallery-box" data-category="housekeeping" data-title="Deep Cleaning Service">
+          <img src="img/gallery/deep-cleaning.jpg" alt="Deep Cleaning Service" onerror="this.src='https://i.ibb.co/x3ptrWD/clen.jpg'">
+        </div>
+        <div class="gallery-box" data-category="housekeeping" data-title="Carpet &amp; Floor Cleaning">
+          <img src="img/gallery/carpet-cleaning.jpg" alt="Carpet Floor Cleaning" onerror="this.src='https://placehold.co/600x450/14324f/ffffff?text=Carpet+Floor+Cleaning'">
+        </div>
+
+        <!-- Security -->
+        <div class="gallery-box" data-category="security" data-title="Corporate Security Guard">
+          <img src="img/gallery/security.jpg" alt="Corporate Security Guard" onerror="this.src='https://i.ibb.co/xFtqrCR/sg.jpg'">
+        </div>
+        <div class="gallery-box" data-category="security" data-title="Event Security Team">
+          <img src="img/gallery/event-security.jpg" alt="Event Security Team" onerror="this.src='https://placehold.co/600x450/14324f/ffffff?text=Event+Security'">
+        </div>
+        <div class="gallery-box" data-category="security" data-title="CCTV Monitoring">
+          <img src="img/gallery/cctv.jpg" alt="CCTV Monitoring" onerror="this.src='https://placehold.co/600x450/0e2237/ffffff?text=CCTV+Monitoring'">
+        </div>
+
+        <!-- Technical -->
+        <div class="gallery-box" data-category="technical" data-title="Electrical Maintenance">
+          <img src="img/gallery/technical.jpg" alt="Electrical Maintenance" onerror="this.src='https://i.ibb.co/2vXMcnL/tech.jpg'">
+        </div>
+        <div class="gallery-box" data-category="technical" data-title="HVAC Servicing">
+          <img src="img/gallery/hvac.jpg" alt="HVAC Servicing" onerror="this.src='https://placehold.co/600x450/0e2237/ffffff?text=HVAC+Servicing'">
+        </div>
+        <div class="gallery-box" data-category="technical" data-title="Plumbing Repairs">
+          <img src="img/gallery/plumbing.jpg" alt="Plumbing Repairs" onerror="this.src='https://placehold.co/600x450/14324f/ffffff?text=Plumbing+Repairs'">
+        </div>
+
+        <!-- Manpower -->
+        <div class="gallery-box" data-category="manpower" data-title="Outsourced Staffing">
+          <img src="img/gallery/manpower.jpg" alt="Outsourced Staffing" onerror="this.src='https://placehold.co/600x450/0e2237/ffffff?text=Outsourced+Staffing'">
+        </div>
+        <div class="gallery-box" data-category="manpower" data-title="Warehouse Support Staff">
+          <img src="img/gallery/warehouse.jpg" alt="Warehouse Support Staff" onerror="this.src='https://placehold.co/600x450/14324f/ffffff?text=Warehouse+Support'">
+        </div>
+        <div class="gallery-box" data-category="manpower" data-title="Hospitality Staff">
+          <img src="img/gallery/hospitality.jpg" alt="Hospitality Staff" onerror="this.src='https://placehold.co/600x450/0e2237/ffffff?text=Hospitality+Staff'">
+        </div>
+
+        <!-- Cleaning -->
+        <div class="gallery-box" data-category="cleaning" data-title="Eco-Friendly Cleaning">
+          <img src="img/gallery/cleaning.jpg" alt="Eco-Friendly Cleaning" onerror="this.src='https://placehold.co/600x450/14324f/ffffff?text=Eco+Friendly+Cleaning'">
+        </div>
+        <div class="gallery-box" data-category="cleaning" data-title="Sanitization Service">
+          <img src="img/gallery/sanitization.jpg" alt="Sanitization Service" onerror="this.src='https://placehold.co/600x450/0e2237/ffffff?text=Sanitization+Service'">
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top:40px;">
+        <a href="contact.html" class="btn btn-primary">Request Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>JBBM Infraservices</h3>
+          <p>Professional facility management services — housekeeping, security, technical services, manpower outsourcing, HR and payroll solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="services.html">House Keeping</a></li>
+            <li><a href="services.html">Security Services</a></li>
+            <li><a href="services.html">Technical Services</a></li>
+            <li><a href="services.html">Manpower Outsourcing</a></li>
+            <li><a href="services.html">Cleaning Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+919999999999"><i class="fa-solid fa-phone"></i> +91 99999 99999</a></li>
+            <li><a href="mailto:info@jbbm.co.in"><i class="fa-solid fa-envelope"></i> info@jbbm.co.in</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Ashok Vihar, Phase III, Gurugram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 JBBM Infraservices. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Go to Top Button -->
+  <button id="goTopBtn" aria-label="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- WhatsApp Floating Icon -->
+  <div class="float-icons">
+    <a href="https://wa.me/919999999999" class="float-icon whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <button class="float-icon go-top" id="goTopFloat" aria-label="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
